@@ -1,0 +1,22 @@
+<div class="ccontent">
+  <h2 class="contentComponent">Content</h2>
+  @if (selectedFootballer()) {
+    <div class="divContent">
+      <table class="centered-table">
+        <tr>
+          <td>Player Name</td>
+          <td>Player Club</td>
+        </tr>
+        <tbody>
+          <tr>
+            <td>{{ selectedFootballer()?.name }}</td>
+            <td>{{ selectedFootballer()?.club }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Selected Player : {{ selectedFootballer()?.name }} ---- {{ selectedFootballer()?.club }}</p>
+    </div>
+  } @else {
+    <div class="divContent">Aucun joueur sélectionné</div>
+  }
+</div>

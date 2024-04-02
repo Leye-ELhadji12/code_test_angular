@@ -1,0 +1,13 @@
+<div class="header">
+  <img class="logo" src="{{ logoPath }}" alt="Logo Left">
+  <div class="content">
+    <ul>
+      @for (footballer of footballers(); track footballer.name) {
+        <li>
+          <a href="#" (click)="onFootballerSelected(footballer)">{{ footballer.name }}</a>
+        </li>
+      }
+    </ul>
+  </div>
+  <img class="logo" src="{{ logoPath }}" alt="Logo Right">
+</div>

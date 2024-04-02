@@ -1,4 +1,4 @@
-For the test about ex_js you can also use this link:
+For the test about ex_js you can use this link:
 https://jsfiddle.net/qjLdou3r/
 
-Or you can clone files.
+Or you can also clone files.
